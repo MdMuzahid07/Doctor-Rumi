@@ -27,7 +27,7 @@ const AboutMe = () => {
                             </svg>
                         </div>
                         <div>
-                            <img className="rounded-2xl object-cover object-center " src="../../../public/assets/Doctor-Rumi-2.png" alt="" />
+                            <img className="rounded-2xl w-full object-cover object-center " src="../../../public/assets/Doctor-Rumi-2.png" alt="" />
                         </div>
                     </div>
                     <div className="md:col-span-4 relative">

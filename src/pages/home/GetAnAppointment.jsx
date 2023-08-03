@@ -14,6 +14,7 @@ const GetAnAppointment = () => {
                         <button className="book w-full mt-10">Book Appointment</button>
                     </div>
                     <div className="md:col-span-5">
+                        <img className="w-full object-cover object-center mb-10 " src="../../../public/assets/doctor-patient.png" alt="" />
                         <p className="getAppointment">Getting a doctor's appointment is important for receiving medical care, managing chronic conditions, detecting health issues early, and alleviating anxiety about one's health. It provides peace of mind and reassurance, particularly for ongoing health concerns, and helps individuals take important steps towards better health.</p>
                     </div>
                 </div>
