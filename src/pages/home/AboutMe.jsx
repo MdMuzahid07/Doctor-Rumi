@@ -2,7 +2,7 @@
 const AboutMe = () => {
     return (
         <section className="commonBg py-32">
-            <div className="max-w-screen-xl mx-auto px-3 md:px-20 relative">
+            <div className="max-w-screen-xl mx-auto relative px-2 md:px-20 ">
                 <div className="absolute right-0 -top-10">
                     <svg xmlns="http://www.w3.org/2000/svg" width="201" height="89" viewBox="0 0 201 89" fill="none">
                         <path d="M0.99995 64.7023C47.8915 58.6453 75.717 -0.445074 102.032 1.37321C128.346 3.19149 93.5842 79.0021 75.7696 73.3052C57.955 67.6083 97.158 -4.33821 130.312 4.81632C163.465 13.9709 145.241 92.3934 123.934 87.2861C102.628 82.1789 121.053 10.5685 162.614 9.44172C204.175 8.31497 238.024 39.2614 238.024 39.2614" stroke="url(#paint0_linear_13_180)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -15,8 +15,8 @@ const AboutMe = () => {
                     </svg>
                 </div>
                 <div className="grid md:grid-cols-7 gap-10">
-                    <div className="col-span-12 md:col-span-3 relative">
-                        <div className="absolute -right-24 -top-24">
+                    <div className="md:col-span-3 relative">
+                        <div className="absolute -right-24 -top-24 hidden md:block">
                             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="136" viewBox="0 0 130 136" fill="none">
                                 <path d="M60.6826 99.8577L106.301 100.003" stroke="#E7658B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M36.9731 76.0688L35.0747 27.0049" stroke="#E7658B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -26,9 +26,11 @@ const AboutMe = () => {
                                 <path d="M53.0991 85.3912L74.9732 59.6183" stroke="#E7658B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </div>
-                        <img className="rounded-2xl w-full object-cover" src="../../../public/assets/Doctor-Rumi-2.png" alt="" />
+                        <div>
+                            <img className="rounded-2xl object-cover object-center " src="../../../public/assets/Doctor-Rumi-2.png" alt="" />
+                        </div>
                     </div>
-                    <div className="col-span-12 md:col-span-4 relative">
+                    <div className="md:col-span-4 relative">
                         <h2 className="my-5">
                             <span className="hello-there">About</span>
                             <span className="text-4xl text-black ml-2">Me!</span>

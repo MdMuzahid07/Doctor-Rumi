@@ -16,7 +16,7 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className="grid md:grid-cols-8 gap-5">
-                    <div className="col-span-12 md:col-span-5">
+                    <div className="md:col-span-5">
                         <h2 className="hello-there mb-3">Hello There!</h2>
                         <h3 className="name mb-4">This is Dr. Rumi....... </h3>
                         <p className="intro">
@@ -36,7 +36,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-3 mt-10 md:mt-0 relative">
+                    <div className="md:col-span-3 mt-10 md:mt-0 relative">
                         <div className="absolute -top-10 -right-10 z-0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="123" height="200" viewBox="0 0 129 206" fill="none">
                                 <path d="M127.51 1.86768C103.38 42.5279 132.764 100.859 115.115 120.461C97.4648 140.063 59.1878 65.9649 74.6535 55.4469C90.1192 44.9289 122.616 120.143 94.9739 140.609C67.3318 161.076 16.8053 98.3919 33.959 84.7603C51.1126 71.1287 96.1501 129.773 71.423 163.197C46.6959 196.621 1.46387 204.204 1.46387 204.204" stroke="url(#paint0_linear_1_82)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

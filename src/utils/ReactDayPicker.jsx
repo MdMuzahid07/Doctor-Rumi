@@ -12,14 +12,14 @@ const ReactDayPicker = () => {
     }
 
     return (
-        <div className="p-5 bg-white rounded-lg">
+        <section className="p-5 bg-white rounded-lg">
             <DayPicker
                 mode="single"
                 selected={selected}
                 onSelect={setSelected}
                 footer={footer}
             />
-        </div>
+        </section>
     );
 }
 

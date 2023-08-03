@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const TimePicker = () => {
     const [hours, setHours] = useState('12');
@@ -18,7 +18,7 @@ const TimePicker = () => {
     };
 
     return (
-        <div className="flex items-center justify-center p-5 rounded-lg bg-white mt-10">
+        <section className="flex items-center justify-center p-5 rounded-lg bg-white mt-10">
             <select
                 value={hours}
                 onChange={handleHourChange}
@@ -45,7 +45,7 @@ const TimePicker = () => {
             <button onClick={toggleAMPM} className="px-7 py-2 ml-2">
                 {isAM ? 'AM' : 'PM'}
             </button>
-        </div>
+        </section>
     );
 };
 
