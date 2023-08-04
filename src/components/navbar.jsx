@@ -36,9 +36,9 @@ const Navbar = (props) => {
                     <button onClick={scrollToAppointment} className="text-gray-400">
                         Services
                     </button>
-                    <a onClick={scrollToContact} className="text-gray-400">
+                    <button onClick={scrollToContact} className="text-gray-400">
                         Contact
-                    </a>
+                    </button>
                     <button onClick={scrollToReview} className="text-gray-400">
                         Blog
                     </button>
