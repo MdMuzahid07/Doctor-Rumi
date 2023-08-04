@@ -19,7 +19,7 @@ const ReviewCarousel = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -39,7 +39,7 @@ const ReviewCarousel = () => {
         <>
             <Slider arrows={false} {...settings}>
                 <div className="px-3">
-                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm hover:drop-shadow-md h-80 relative">
+                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm  h-80 relative">
                         <p className="patient-review-text">
                             I came to Doctor Rumi for help with my chronic headaches, and they were amazing! Through a combination of medication and lifestyle changes, they helped me manage my symptoms and improve my quality of life. I would highly recommend their expertise to anyone struggling with neurological issues.
                         </p>
@@ -58,7 +58,7 @@ const ReviewCarousel = () => {
                 </div>
 
                 <div className="px-3">
-                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm hover:drop-shadow-md h-80 relative">
+                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm  h-80 relative">
                         <p className="patient-review-text">
                             Doctor Rumi is a true professional and incredibly knowledgeable in the field of neurology. Their compassionate and personalized care made all the difference in my recovery from a traumatic brain injury. I am forever grateful for their guidance and support.
                         </p>
@@ -77,7 +77,7 @@ const ReviewCarousel = () => {
                 </div>
 
                 <div className="px-3">
-                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm hover:drop-shadow-md h-80 relative">
+                    <div className="p-6 bg-white rounded-3xl border drop-shadow-sm  h-80 relative">
                         <p className="patient-review-text">
                             Doctor Rumi is a true professional and incredibly knowledgeable in the field of neurology. Their compassionate and personalized care made all the difference in my recovery from a traumatic brain injury. I am forever grateful for their guidance and support.
                         </p>
