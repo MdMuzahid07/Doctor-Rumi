@@ -4,6 +4,7 @@ import AboutMe from "./pages/home/AboutMe"
 import Disease from "./pages/home/Disease"
 import GetAnAppointment from "./pages/home/GetAnAppointment"
 import Header from "./pages/home/Header"
+import WhatPatientSays from "./pages/home/WhatPatientSays"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <AboutMe />
         <GetAnAppointment />
         <Disease />
+        <WhatPatientSays />
       </main >
       <Footer />
     </>

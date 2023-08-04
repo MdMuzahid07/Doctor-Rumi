@@ -88,3 +88,12 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.patient-review-text {
+    color: var(--dark, #031432);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
