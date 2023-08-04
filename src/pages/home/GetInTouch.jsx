@@ -7,7 +7,7 @@ const GetInTouch = () => {
             <div className="max-w-screen-xl mx-auto px-3 md:px-10 ">
                 <div className="grid md:grid-cols-8">
                     <div className="md:col-span-5 commonBg  px-5 md:px-24 pt-20 pb-10">
-                        <div className="lg:pr-24">
+                        <div className="lg:pr-16">
                             <h2><span className="text-4xl font-bold mr-2">Get in</span> <span className="hello-there">Touch</span></h2>
                             <p className="get-in-touch-text mt-5 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vitae ligula vel iaculis. Nulla et diam libero. Donec varius sem nisi, eu varius lacus ornare vel. Etiam rhoncus erat nec metus tincidunt convallis. Integer euismod commodo magna non ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nec est non mauris dictum tristique. In hac habitasse platea dictumst.</p>
 
@@ -53,7 +53,9 @@ const GetInTouch = () => {
                         </div>
                     </div>
                     <div style={{ background: "#DA5F83" }} className="md:col-span-3 px-5 py-20">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quam voluptate maxime aliquid deserunt doloribus, odit natus laudantium suscipit doloremque aspernatur, quas corrupti aut perspiciatis? Harum consequatur corporis ducimus sapiente.
+                        <div className="lg:-ml-40 ">
+                            <iframe className="w-full lg:pr-20" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=431&amp;height=556&amp;hl=en&amp;q=Dhaka%20Dhaka+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
+                        </div>
                     </div>
                 </div>
             </div>
