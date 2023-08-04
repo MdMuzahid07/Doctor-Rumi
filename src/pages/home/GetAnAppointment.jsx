@@ -1,9 +1,9 @@
 import ReactDayPicker from "../../utils/ReactDayPicker"
 import TimePicker from "../../utils/TimePicker"
 
-const GetAnAppointment = () => {
+const GetAnAppointment = ({ getAnAppointment }) => {
     return (
-        <section className="commonBg py-32">
+        <section ref={getAnAppointment} className="commonBg py-32">
             <div className="max-w-screen-xl mx-auto px-3 md:px-20">
                 <div className="grid md:grid-cols-8 gap-10">
                     <div className="md:col-span-3">

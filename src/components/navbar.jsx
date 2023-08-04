@@ -1,7 +1,8 @@
 import { useState } from "react";
 import AppointmentBtn from "./appointmentBtn";
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const { scrollToHeader, scrollToAbout, scrollToAppointment, scrollToDiseases, scrollToReview, scrollToContact } = props;
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
     const toggleMobileNav = () => {
@@ -26,21 +27,21 @@ const Navbar = () => {
 
                 {/* Nav Links (Desktop) */}
                 <div className="hidden lg:flex gap-10">
-                    <a href="/" className="text-gray-400">
+                    <button onClick={scrollToHeader} className="text-gray-400">
                         Home
-                    </a>
-                    <a href="/about" className="text-gray-400">
+                    </button>
+                    <button onClick={scrollToAbout} className="text-gray-400">
                         About Me
-                    </a>
-                    <a href="/contact" className="text-gray-400">
+                    </button>
+                    <button onClick={scrollToAppointment} className="text-gray-400">
                         Services
-                    </a>
-                    <a href="/contact" className="text-gray-400">
+                    </button>
+                    <a onClick={scrollToContact} className="text-gray-400">
                         Contact
                     </a>
-                    <a href="/contact" className="text-gray-400">
+                    <button onClick={scrollToReview} className="text-gray-400">
                         Blog
-                    </a>
+                    </button>
                 </div>
 
                 <div className="hidden lg:flex space-x-4">
@@ -50,19 +51,19 @@ const Navbar = () => {
                 {/* Nav Links (Mobile) */}
                 {isMobileNavOpen && (
                     <div className="lg:hidden absolute top-20 right-7 rounded-2xl border drop-shadow-md bg-white px-10 py-10 h-96 w-80">
-                        <a href="/" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
+                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
                             Home
                         </a>
-                        <a href="/about" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
+                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
                             About Me
                         </a>
-                        <a href="/contact" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
+                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
                             Services
                         </a>
-                        <a href="/contact" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
+                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
                             Contact
                         </a>
-                        <a href="/contact" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
+                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
                             Blog
                         </a>
 

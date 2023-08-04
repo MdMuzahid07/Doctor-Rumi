@@ -1,8 +1,8 @@
 import AppointmentBtn from '../../components/appointmentBtn'
 
-const Header = () => {
+const Header = ({ header }) => {
     return (
-        <section className="commonBg py-44">
+        <section ref={header} className="commonBg py-44">
             <div className="max-w-screen-xl mx-auto px-3 md:px-20 relative">
                 <div className="absolute -top-24 -left-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="201" height="89" viewBox="0 0 201 89" fill="none">

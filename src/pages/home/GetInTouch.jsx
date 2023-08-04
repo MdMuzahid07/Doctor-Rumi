@@ -1,9 +1,9 @@
 import ContactForm from "../../components/contactForm"
 
-const GetInTouch = () => {
+const GetInTouch = ({ getInTouch }) => {
 
     return (
-        <section className="py-32">
+        <section ref={getInTouch} className="py-32">
             <div className="max-w-screen-xl mx-auto px-3 md:px-10 ">
                 <div className="grid md:grid-cols-8">
                     <div className="md:col-span-5 commonBg  px-5 md:px-24 pt-20 pb-10">

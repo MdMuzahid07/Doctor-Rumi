@@ -1,7 +1,7 @@
 
-const AboutMe = () => {
+const AboutMe = ({ aboutMe }) => {
     return (
-        <section className="commonBg py-32">
+        <section ref={aboutMe} className="commonBg py-32">
             <div className="max-w-screen-xl mx-auto relative px-2 md:px-20">
                 <div className="absolute right-0 -top-10">
                     <svg xmlns="http://www.w3.org/2000/svg" width="201" height="89" viewBox="0 0 201 89" fill="none">
