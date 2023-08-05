@@ -51,22 +51,26 @@ const Navbar = (props) => {
                 {/* Nav Links (Mobile) */}
                 {isMobileNavOpen && (
                     <div className="lg:hidden absolute top-20 right-7 rounded-2xl border drop-shadow-md bg-white px-10 py-10 h-96 w-80">
-                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
-                            Home
-                        </a>
-                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
-                            About Me
-                        </a>
-                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
-                            Services
-                        </a>
-                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
-                            Contact
-                        </a>
-                        <a href="#" className=" bg-rose-200 rounded-lg px-5 py-2 text-center block text-gray-500 mb-2">
-                            Blog
-                        </a>
 
+                        <button onClick={scrollToHeader} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                            Home
+                        </button>
+
+                        <button onClick={scrollToAbout} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                            About Me
+                        </button>
+
+                        <button onClick={scrollToAppointment} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                            Services
+                        </button>
+
+                        <button onClick={scrollToContact} className=" bg-rose-200 rounded-lg px-5 py-2 text-center block w-full text-gray-500 mb-2">
+                            Contact
+                        </button>
+
+                        <button onClick={scrollToReview} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                            Blog
+                        </button>
 
                         <div className="mt-5 flex justify-center">
                             <AppointmentBtn />
